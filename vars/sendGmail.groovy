@@ -1,7 +1,7 @@
 import org.krishtechnologies.utils.GmailSender
 
 def call(Map config = [:]) {
-    def to = config.to ?: "krishnakumarchinnusamy@gmail.com
+    def to = config.to ?: "krishnakumarchinnusamy@gmail.com"
     def subject = config.subject ?: "Jenkins Notification"
     def body = config.body ?: "Hello from Jenkins"
     def user = config.user ?: "krishnakumarchinnusamy@gmail.com"
